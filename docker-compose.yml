@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
     master:
-      image: msaju20/mywebclass:master
+      image: msaju20/mywebclassmsaju20:master
       deploy:
         replicas: 2
       pull_policy: always
